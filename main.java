@@ -101,6 +101,7 @@ class TicTacToe {
 				}
 
 			}
+			scan.close();
 		}
 
 		// Draw the board at the end of the game
