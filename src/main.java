@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 
 class TicTacToe {
@@ -101,11 +102,13 @@ class TicTacToe {
 				}
 
 			}
-			scan.close();
-		}
+   	 		// Draw the board at the end of the game
+    		drawBoard(board);
 
-		// Draw the board at the end of the game
-		drawBoard(board);
+    	// Close the Scanner after you've finished using it
+    	scan.close();
+}
+
 
 	}
 
